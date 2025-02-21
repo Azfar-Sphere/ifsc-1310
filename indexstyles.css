@@ -2,11 +2,11 @@ body {
     background-image: url("lines.jpg");
 }
 h1, h2 { 
-    color: white !important;
+    color: rgba(255, 255, 255, 0.654) !important;
     text-shadow: 0 0 5px darkgray, 0 0 10px gray;
 
 }
 
 hr { 
-    opacity: 1 !important;
+    opacity: 0.8 !important;
 }
