@@ -1,3 +1,8 @@
 body { 
-    background-color:bisque !important;
+    background-image: url("lines.jpg");
+}
+h1, h2 { 
+    color: #D3D3D3 !important;
+    text-shadow: 0 0 5px darkgray, 0 0 10px gray;
+
 }
