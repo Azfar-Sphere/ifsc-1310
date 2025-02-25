@@ -1,5 +1,7 @@
 body { 
-    background-image: url("lines.jpg");
+    background-image: url("lines.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1, h2 { 
     color: rgba(255, 255, 255, 0.654) !important;
