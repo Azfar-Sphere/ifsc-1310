@@ -3,12 +3,24 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1, h2 { 
-    color: rgba(255, 255, 255, 0.654) !important;
-    text-shadow: 0 0 5px darkgray, 0 0 10px gray;
+h1 { 
+    color: rgba(#ffffff00) !important;
+    mix-blend-mode: difference;
+    backdrop-filter: invert(100%);
+}
+h2 { 
+    color: rgba(#ffffff00) !important;
+    mix-blend-mode: difference;
+    text-shadow: 0 0 5px #80F291, 0 0 10px #80F291;
+    filter: invert(100%)
 
 }
 
 hr { 
     opacity: 0.8 !important;
+}
+
+.inverted-text { 
+    display: inline;
+    filter: invert(100%);
 }
