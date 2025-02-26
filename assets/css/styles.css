@@ -1,0 +1,21 @@
+body { 
+    background-image: url("lines.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.inverted-text { 
+    color: rgba(#850c0c) !important;
+    mix-blend-mode: difference !important;
+    filter: invert(100%) !important;
+}
+h2 { 
+    color: rgba(#ffffff) !important;
+    text-shadow: 0 0 5px #80F291, 0 0 10px #80F291;
+    backdrop-filter: blur(2px)
+
+}
+
+hr { 
+    opacity: 0.8 !important;
+} 
