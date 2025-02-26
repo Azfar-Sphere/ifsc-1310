@@ -1,16 +1,16 @@
 body { 
-    background-image: url("lines.png");
+    background-image: url(lines.png);
+    background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .inverted-text { 
-    color: rgba(#850c0c) !important;
-    mix-blend-mode: difference !important;
-    filter: invert(100%) !important;
+    color: #80F291 !important;
+    mix-blend-mode: exclusion;
 }
 h2 { 
-    color: rgba(#ffffff) !important;
+    color: #04C4D9!important;
     text-shadow: 0 0 5px #80F291, 0 0 10px #80F291;
     backdrop-filter: blur(2px)
 
