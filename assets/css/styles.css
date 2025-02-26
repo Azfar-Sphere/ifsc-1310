@@ -11,9 +11,7 @@ body {
 }
 h2 { 
     color: #04C4D9!important;
-    text-shadow: 0 0 5px #80F291, 0 0 10px #80F291;
-    backdrop-filter: blur(2px)
-
+    text-shadow: 2px 2px #305559;
 }
 
 hr { 

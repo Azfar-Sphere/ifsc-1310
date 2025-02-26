@@ -1,3 +1,14 @@
-body { 
-    background-color: palegreen;
+body {
+  background-color: palegreen;
+  font-family: "Annie Use Your Telescope", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header.primary {
+  background-color: #FA98C9;
+  color: palegreen;
+  text-align: center;
+  text-shadow: 2px 2px #7A5467;
 }
