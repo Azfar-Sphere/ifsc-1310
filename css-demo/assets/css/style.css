@@ -26,11 +26,33 @@ header.primary {
 }
 
 header.primary h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin: 20px, 0, 0;
 }
 
 header.primary h1 a {
   color: #2A502A;
   text-decoration: none;
+}
+
+header.primary h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+nav.primary {
+  
+}
+
+nav.primary ul {
+  padding: 0;
+}
+
+nav.primary ul li {
+  list-style-type: none;
+}
+
+nav.primary ul li a {
+  color: white;
 }
