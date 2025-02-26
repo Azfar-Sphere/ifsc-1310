@@ -1,14 +1,36 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: palegreen;
   font-family: "Annie Use Your Telescope", serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 
-
 header.primary {
-  background-color: #FA98C9;
+  background-color: #fa98c9;
   color: palegreen;
   text-align: center;
-  text-shadow: 2px 2px #7A5467;
+  text-shadow: 2px 2px #7a5467;
+  padding: 40px;
+}
+
+header.primary h1 {
+  font-size: 2.4rem;
+  margin: 20px, 0, 0;
+}
+
+header.primary h1 a {
+  color: #2A502A;
+  text-decoration: none;
 }
