@@ -64,4 +64,9 @@ nav.primary ul li a {
   border: 3px double palegoldenrod;
   background-color: rgba(142, 34, 70, 0.515);
   border-radius: 10px;
+  transition: 0.6s;
+}
+
+nav.primary ul li a:hover { 
+  background-color: rgba(142, 34, 70, 0.923);
 }
