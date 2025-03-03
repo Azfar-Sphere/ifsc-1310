@@ -9,6 +9,14 @@ html {
   box-sizing: inherit;
 }
 
+/* ----------- Utility Classes ----------- */
+
+.container{
+width: 80vw;
+margin: 40px auto;
+}
+
+
 body {
   background-color: palegreen;
   font-family: "Annie Use Your Telescope", serif;
@@ -69,4 +77,8 @@ nav.primary ul li a {
 
 nav.primary ul li a:hover { 
   background-color: rgba(142, 34, 70, 0.923);
+}
+
+#content { 
+
 }
