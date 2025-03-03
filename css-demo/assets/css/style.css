@@ -11,12 +11,11 @@ html {
 
 /* ----------- Utility Classes ----------- */
 
-.container{
-width: 80vw;
-max-width: 960px;
-margin: 40px auto;
+.container {
+  width: 80vw;
+  max-width: 960px;
+  margin: 40px auto;
 }
-
 
 body {
   background-color: palegreen;
@@ -40,7 +39,7 @@ header.primary h1 {
 }
 
 header.primary h1 a {
-  color: #2A502A;
+  color: #2a502a;
   text-decoration: none;
 }
 
@@ -48,10 +47,6 @@ header.primary h2 {
   font-size: 2rem;
   margin: 0;
   letter-spacing: 2px;
-}
-
-nav.primary {
-  
 }
 
 nav.primary ul {
@@ -62,7 +57,6 @@ nav.primary ul {
   max-width: 900px;
   margin: 20px auto;
 }
-
 
 nav.primary ul li {
   list-style-type: none;
@@ -79,17 +73,29 @@ nav.primary ul li a {
   transition: 0.6s;
 }
 
-nav.primary ul li a:hover { 
+nav.primary ul li a:hover {
   background-color: rgba(142, 34, 70, 0.923);
   text-shadow: 2px 2px #2d1e25;
-
 }
 
-#content h2 { 
+#content h2 {
   border-bottom: 3px solid rgb(206, 153, 101);
 }
 
 #content h3 {
   border-left: 3px solid rgb(206, 153, 101);
   padding: 5px 0 5px 10px;
+}
+
+@media screen and (max-width:500px) {
+  nav.primary ul {
+    flex-direction: column;
+    gap: 10px;
+    max-width:200px;
+    margin: 20px auto;
+  }
+}
+
+nav.primary ul li a {
+  display: block;
 }
