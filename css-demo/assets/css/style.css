@@ -46,18 +46,22 @@ nav.primary {
 }
 
 nav.primary ul {
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
 nav.primary ul li {
-  font-size: 1.5rem;
   list-style-type: none;
 }
 
 nav.primary ul li a {
+  font-size: 1.5rem;
+  padding: 5px 10px;
   color: white;
   text-decoration: none;
+  border: 3px double palegoldenrod;
+  background-color: rgba(142, 34, 70, 0.515);
+  border-radius: 10px;
 }
