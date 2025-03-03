@@ -7,11 +7,12 @@ body {
 }
 .inverted-text { 
     color: #80F291 !important;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: difference;
 }
 h2 { 
     color: #04C4D9!important;
     text-shadow: 2px 2px #305559;
+    backdrop-filter: blur(10px) !important;
 }
 
 hr { 
