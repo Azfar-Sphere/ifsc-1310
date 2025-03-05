@@ -17,6 +17,13 @@ html {
   margin: 40px auto;
 }
 
+/*  --------------- Responsive Images-----------------  */
+
+img{
+  max-width:100%;
+}
+
+
 body {
   background-color: palegreen;
   font-family: "Annie Use Your Telescope", serif;
@@ -99,3 +106,58 @@ nav.primary ul li a:hover {
 nav.primary ul li a {
   display: block;
 }
+
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:30px;
+  border-top: 2px solid gray;
+  padding: 20px 0px;
+}
+
+#blog article.post{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  padding:10px;
+  font-size:1rem;
+  border-radius:4px;
+  transition:.5s;
+}
+
+#blog article.post:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+figure{
+  margin:0;
+}
+
+figcaption { 
+  text-transform: uppercase;
+}
+
+aside[role="complementary"]{
+  background: paleturquoise;
+  padding: 40px 0px;
+}
+
+aside .container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+aside .container a[href*="#"]{
+
+  display: block;
+  
+  color: palevioletred;
+  
+  text-align: right;
+  
+  }
+
+  aside article footer {
+    display: none;
+  }
