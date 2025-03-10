@@ -19,13 +19,12 @@ html {
 
 /*  --------------- Responsive Images-----------------  */
 
-img{
-  max-width:100%;
+img {
+  max-width: 100%;
 }
 
-
 body {
-  background-color: palegreen;
+  background-color: #98fb98;
   font-family: "Annie Use Your Telescope", serif;
   font-weight: 400;
   font-style: normal;
@@ -38,6 +37,8 @@ header.primary {
   text-align: center;
   text-shadow: 2px 2px #7a5467;
   padding: 40px;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%236aae6a' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 header.primary h1 {
@@ -94,50 +95,40 @@ nav.primary ul li a:hover {
   padding: 5px 0 5px 10px;
 }
 
-@media screen and (max-width:500px) {
-  nav.primary ul {
-    flex-direction: column;
-    gap: 10px;
-    max-width:200px;
-    margin: 20px auto;
-  }
-}
-
 nav.primary ul li a {
   display: block;
 }
 
-
-#blog{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  gap:30px;
+#blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
   border-top: 2px solid gray;
   padding: 20px 0px;
 }
 
-#blog article.post{
+#blog article.post {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  padding:10px;
-  font-size:1rem;
-  border-radius:4px;
-  transition:.5s;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: 0.5s;
 }
 
 #blog article.post:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-figure{
-  margin:0;
+figure {
+  margin: 0;
 }
 
-figcaption { 
+figcaption {
   text-transform: uppercase;
 }
 
-aside[role="complementary"]{
+aside[role="complementary"] {
   background: paleturquoise;
   padding: 40px 0px;
 }
@@ -148,16 +139,36 @@ aside .container {
   gap: 40px;
 }
 
-aside .container a[href*="#"]{
-
+aside .container a[href*="#"] {
   display: block;
-  
+
   color: palevioletred;
-  
+
   text-align: right;
-  
+}
+
+aside article footer {
+  display: none;
+}
+
+#colophon {
+  background-color: palegoldenrod;
+  padding: 5px;
+  text-align: center;
+  color: gray;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px rgb(171, 166, 122);
+}
+
+@media screen and (max-width: 440px) {
+  nav.primary ul {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+    margin: 20px auto;
   }
 
-  aside article footer {
-    display: none;
+  nav.primary ul li a {
+    display: block;
   }
+}
