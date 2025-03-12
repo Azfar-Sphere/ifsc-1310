@@ -240,6 +240,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: rgb(130, 60, 60);
   color: rgb(141, 130, 3);
+  mix-blend-mode: exclusion;
 }
 
 td:nth-child(n + 2) {
