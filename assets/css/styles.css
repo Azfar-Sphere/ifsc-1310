@@ -46,12 +46,13 @@ h2 {
 }
 
 a { 
-    color: #FF77FF;
+    color: #E1D1FF;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 a:hover { 
-    color: #FEC5FF;
+    color: #836EAA;
     text-decoration: underline;
 }
 
