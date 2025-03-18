@@ -27,6 +27,7 @@ html, body {
     mix-blend-mode: difference;
 }
 h1 {
+    display: inline-block;
     padding: 0px;
     text-align: center;
     text-decoration: none;
@@ -35,14 +36,13 @@ h1 {
     font-weight: 100;
     color: #D4C2FC;
     text-shadow: 2px 2px #000000;
-    transform: rotate(-90deg);
-    transform-origin: center;
+    padding: 5px 20px;
 }
 
 
 h2 { 
-    color: #04C4D9!important;
-    text-shadow: 2px 2px #305559;
+    font-size: 2rem;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -61,6 +61,18 @@ ul {
 }
 
 #navbar {
+    display: flex;
+    height: 100vh;
     flex-grow: 3;
+    flex-direction: column;
     backdrop-filter: blur(10px);
+    text-align: center;
+    justify-content: center;
+}
+
+#left {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
 }
