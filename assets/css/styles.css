@@ -7,6 +7,14 @@
       "wdth" 100;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
 
 html, body {
     height: 100%;
@@ -27,13 +35,15 @@ h1 {
     font-weight: 100;
     color: #D4C2FC;
     text-shadow: 2px 2px #000000;
+    transform: rotate(-90deg);
+    transform-origin: center;
 }
 
 
 h2 { 
     color: #04C4D9!important;
     text-shadow: 2px 2px #305559;
-    backdrop-filter: blur(10px) !important;
+    text-align: center;
 }
 
 a { 
@@ -44,4 +54,13 @@ a {
 a:hover { 
     color: #FEC5FF;
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navbar {
+    flex-grow: 3;
+    backdrop-filter: blur(10px);
 }
