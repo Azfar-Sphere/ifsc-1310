@@ -1,14 +1,39 @@
-body { 
-    background-image: url(lines.png);
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+* { 
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; 
+}
+
 .inverted-text { 
     color: #80F291 !important;
     mix-blend-mode: difference;
 }
+.h1 {
+    padding: 0px;
+    color: #80F291;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    margin: 20px 5px;
+
+}
+
+h1 {
+
+}
+
 h2 { 
     color: #04C4D9!important;
     text-shadow: 2px 2px #305559;
