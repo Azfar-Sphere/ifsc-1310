@@ -28,11 +28,10 @@ html, body {
 }
 h1 {
     display: inline-block;
-    padding: 0px;
     text-align: center;
     text-decoration: none;
     font-size: 4rem;
-    margin: 20px 5px;
+    margin: 10px 5px;
     font-weight: 100;
     color: #D4C2FC;
     text-shadow: 2px 2px #000000;
@@ -60,19 +59,28 @@ ul {
     list-style-type: none;
 }
 
+li {
+    padding: 10px;
+}
+
 #navbar {
     display: flex;
     height: 100vh;
     flex-grow: 3;
     flex-direction: column;
-    backdrop-filter: blur(10px);
+    backdrop-filter: sepia(50%) blur(3px);
     text-align: center;
     justify-content: center;
 }
 
 #left {
     display: flex;
-    gap: 40px;
     justify-content: flex-start;
     flex-direction: column;
+}
+
+#positioning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
