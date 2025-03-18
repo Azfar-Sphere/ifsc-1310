@@ -18,21 +18,17 @@ html, body {
     color: #80F291 !important;
     mix-blend-mode: difference;
 }
-.h1 {
+h1 {
     padding: 0px;
-    color: #80F291;
     text-align: center;
     text-decoration: none;
-    font-size: 2rem;
-    border-top: 3px solid #FFF;
-    border-bottom: 3px solid #FFF;
+    font-size: 4rem;
     margin: 20px 5px;
-
+    font-weight: 100;
+    color: #D4C2FC;
+    text-shadow: 2px 2px #000000;
 }
 
-h1 {
-
-}
 
 h2 { 
     color: #04C4D9!important;
@@ -40,7 +36,12 @@ h2 {
     backdrop-filter: blur(10px) !important;
 }
 
-hr { 
-    opacity: 0.8 !important;
-} 
+a { 
+    color: #FF77FF;
+    transition: color 0.3s ease;
+}
 
+a:hover { 
+    color: #FEC5FF;
+    text-decoration: underline;
+}
