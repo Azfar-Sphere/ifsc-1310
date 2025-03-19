@@ -69,6 +69,7 @@ a {
 
 a:hover { 
     color: #836EAA;
+    text-shadow: 0 0 8px #836EAA;
     text-decoration: underline;
 }
 
@@ -77,15 +78,20 @@ ul {
     list-style-type: none;
     width: 100%;
     margin: 0 auto;
+    max-width: 600px;
 }
 
 li {
+    font-size: 1.3rem;
     display: block;
     padding: 10px;
     border: 1px solid #FFFDD1;
     margin: 15px auto;
     border-radius: 10px;
     transition: 0.3s ease-out;
+    background: linear-gradient(135deg, #1e1e2f63, #68688e);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.76);
+
 }
 
 #positioning {
@@ -101,11 +107,21 @@ li {
 }
 
 li:hover {
-    background-color: rgba(0, 0, 0, 0.392);
+    transform: scale(1.05);
+    box-shadow: 1px 6px 6px 2px rgba(0, 0, 0, 0.96);
 }
 
 @media (max-width: 800px) {
     .container {
       flex-direction: column;
+    }
+    #navbar {
+        justify-content: center;
+        align-items: center;
+    }
+    #positioning {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
   }
