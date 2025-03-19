@@ -52,7 +52,6 @@ h1 {
     color: #D4C2FC;
     text-shadow: 2px 2px 1px #2F1B55;
     padding: 5px 20px;
-    transition: 0.5s ease-in;
 }
 
 h1:hover
