@@ -109,6 +109,7 @@ li {
     margin: auto 10px;
     padding: 20px;
     border: 1px solid orange;
+    margin-bottom: 30px;
 }
 
 #positioning li:last-of-type {
@@ -161,3 +162,5 @@ li:hover {
         margin: 15px; 
     }
   }
+
+ 
