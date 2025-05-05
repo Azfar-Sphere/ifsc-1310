@@ -65,17 +65,14 @@ html, body {
 
 #w_info { 
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px, 1px, 2px #1e1e2f;
     font-size: 0.8rem;
     background: rgba(248, 134, 27, 0.5);
     display: inline-block;
     border: 1px solid #FFFDD1;
     padding: 10px;
     border-radius: 10px; 
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%); 
-    bottom: -45%;
     z-index: 20;
 }
 
