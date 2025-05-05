@@ -4,7 +4,7 @@ body{
 
 img{
     max-width:100%;
-    height: 30vh;
+    height: auto;
 }
 
 .container{
@@ -22,7 +22,15 @@ h1 {
 
 .center .slick-slide > div { 
     padding: 0 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.center .slick-slide > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    z-index: 10;
+    position: relative;
+  }
 
 
 /* Customize Previous/Next/Dots/Autoplay */
