@@ -71,10 +71,10 @@ html, body {
     display: inline-block;
     border: 1px solid #FFFDD1;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px; 
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); 
     bottom: -45%;
     z-index: 20;
 }
