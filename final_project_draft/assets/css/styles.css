@@ -117,17 +117,22 @@ footer a:hover {
 }
 
 .mars_pics { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    max-width: 600px;
+    margin: 50px auto;
+    max-width: 900px;
     overflow: hidden;
 }
 
-/* .mars_pics img {
+.slick-slide { 
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.mars_pics img {
     width: 80%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-} */
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
