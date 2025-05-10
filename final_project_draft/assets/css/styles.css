@@ -11,13 +11,14 @@ body {
     height: 100vh;
 }
 
+
 header {
     position: sticky;
     top: 0px;
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 1000;
@@ -54,4 +55,30 @@ header h1 a:hover  {
 
 #nav a:hover {
     color: #ffeb3b;
+}
+
+#mars-image { 
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#rovers {
+    position: relative;
+    text-align: center;
+}
+
+#rovers h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(45%);
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#rovers h2 span{
+    color: #b22222;
 }
