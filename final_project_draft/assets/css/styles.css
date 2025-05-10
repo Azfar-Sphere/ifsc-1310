@@ -196,11 +196,40 @@ footer a:hover {
   .footer-history {
     background-color: #1E1E1E;
     color: #E0E0E0;
-    border-top: 2px solid #ffeb3b;
+    border-top: 2px solid #b22222;
   }
 
   header.header-history {
     background-color: #1E1E1E;
     color: #E0E0E0;
-    border-bottom: 2px solid #ffeb3b;
+    border-bottom: 2px solid #b22222;
+  }
+
+  body.faq {
+    background-color: #121212;
+    color: #E0E0E0;
+  }
+
+  h2.faq { 
+    text-align: center;
+    color: #b22222;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+  }
+
+  .faq-item { 
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+
+  .faq-item:hover {
+    background-color: #2A2A2A;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    line-height: 1.6;
   }
