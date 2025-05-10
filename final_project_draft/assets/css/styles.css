@@ -151,8 +151,9 @@ footer a:hover {
 #mh_h2 { 
     text-align: center;
     font-size: clamp(2rem, 4vw, 3rem);
-    color: #333;
-    border-bottom: 2px solid #333;
+    color: gainsboro;
+    border-bottom: 2px solid gainsboro;
+    padding: 20px;
 }
 
 .timeline {
@@ -168,7 +169,7 @@ footer a:hover {
 
   .timeline section h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: gainsboro;
     margin-bottom: 10px;
   }
 
@@ -185,4 +186,21 @@ footer a:hover {
     margin: 40px auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  body.mission-history {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+  .footer-history {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border-top: 2px solid #ffeb3b;
+  }
+
+  header.header-history {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border-bottom: 2px solid #ffeb3b;
   }
