@@ -9,6 +9,9 @@ body {
     margin:0;
     background: rgb(255, 255, 255);
     height: 100vh;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -39,7 +42,7 @@ header h1 a:hover  {
     list-style-type: none;
     display: flex;
     margin: 0;
-    gap: 15px;
+    gap: 20px;
 }
 
 #nav ul li { 
@@ -58,7 +61,7 @@ header h1 a:hover  {
 }
 
 #mars-image { 
-    width:100%;
+    width:100vw;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -67,20 +70,21 @@ header h1 a:hover  {
 #rovers {
     position: relative;
     text-align: center;
+    width: 100vw;
 }
 
 #rovers h2 {
     position: absolute;
     top: 45%;
-    left: 50%;
-    transform: translateX(45%);
+    left: 60%;
     color: white;
-    font-size: 5rem;
+    font-size: clamp(2rem, 5vw, 5rem);
     font-weight: 700;
 }
 
 #rovers h2 span{
     color: #b22222;
+    font-size: clamp(2rem, 5vw, 5rem);
 }
 
 #overview { 
@@ -97,13 +101,14 @@ header h1 a:hover  {
     margin-bottom: 20px;
 }
 
-footer { 
+footer {
     color: white;
     width: 100%;
     background-color: black;
     align-items: center;
     text-align: center;
     padding: 10px 20px;
+    margin-top: auto;
 }
 
 footer a { 
@@ -120,6 +125,7 @@ footer a:hover {
     margin: 50px auto;
     max-width: 900px;
     overflow: hidden;
+    align-items: center;
 }
 
 .slick-slide { 
@@ -141,3 +147,42 @@ footer a:hover {
     margin: 15px auto;
     text-align: center;
 }
+
+#mh_h2 { 
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.timeline {
+    margin-top: 20px;
+    border-left: 3px solid #b22222;
+    padding-left: 20px;
+  }
+
+  .timeline section {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .timeline section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .timeline section p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .rov-img { 
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
