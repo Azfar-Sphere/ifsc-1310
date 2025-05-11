@@ -248,6 +248,16 @@ footer a:hover {
     color: black;
  }
 
+#nasa-logo{
+  height: 3rem;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+
  @media (max-width: 800px) {
   header {
       flex-direction: column;
