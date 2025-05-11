@@ -291,6 +291,6 @@ footer a:hover {
   }
 
   .timeline { 
-    max-width: 95%;
+    max-width: 95vw;
   }
 }
