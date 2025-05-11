@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="NASA Mars Rovers">
+    <meta name="keywords" content="NASA, Mars, Mars Rovers">
     <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,65 +16,65 @@
   </head>
   <body class="mission-history">
     <header class="header-history">
-        <h1><a href="index.html">NASA Mars Rovers</a></h1>
-        <nav id="nav">
+        <h1><a href="index.html" tabindex="0">NASA Mars Rovers</a></h1>
+        <nav id="nav" role="navigation" aria-label="Main Navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mission-history.html">Mission History</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="index.html" tabindex="0">Home</a></li>
+                <li><a href="mission-history.html" tabindex="0">Mission History</a></li>
+                <li><a href="faq.html" tabindex="0">FAQ</a></li>
             </ul>
         </nav>
     </header>
 
-
     <main>
         <h2 id="mh_h2">Mission History</h2>
-        <div class="timeline">
+        <div class="timeline" aria-label="Mars Rover Mission History">
             <section>
                 <h3>1997 - Sojourner</h3>
-                <img src="assets/img/soj.jpg" class="rov-img">
+                <img src="assets/img/soj.jpg" class="rov-img" alt="Sojourner Rover on Mars" tabindex="0">
                 <p><strong>Mission Goals:</strong> Demonstrate the feasibility of low-cost landings on Mars.</p>
-                <p><strong>Overview:</strong> Sojourner was part of the Mars Pathfinder mission and served as the first successful Mars rover, exploring the Martian surface for 83 days.</p>
+                <p><strong>Overview:</strong> Sojourner explored the Martian surface for 83 days.</p>
                 <p><strong>Launch:</strong> December 4, 1996 | <strong>Landing:</strong> July 4, 1997</p>
-                <p><strong>Major Discoveries:</strong> Confirmed the presence of rocks and soil types, indicating that Mars once had a wetter climate.</p>
-                <p><strong>Key Technical Features:</strong> Solar-powered, six-wheel rocker-bogie suspension system, on-board camera for surface imaging.</p>
-              </section>
+                <p><strong>Major Discoveries:</strong> Evidence of rocks and soil types, indicating past water.</p>
+                <p><strong>Key Technical Features:</strong> Solar-powered, six-wheel rocker-bogie suspension.</p>
+            </section>
         
-              <section>
+            <section>
                 <h3>2004 - Spirit and Opportunity</h3>
-                <img src="assets/img/spr-op.webp" class="rov-img">
+                <img src="assets/img/spr-op.webp" class="rov-img" alt="Spirit and Opportunity Rovers" tabindex="0">
                 <p><strong>Mission Goals:</strong> Explore Martian geology and search for signs of water.</p>
-                <p><strong>Overview:</strong> Twin rovers designed to traverse the Martian surface, analyze rocks, and study the planet’s history.</p>
+                <p><strong>Overview:</strong> Twin rovers designed for extensive exploration.</p>
                 <p><strong>Launch:</strong> Spirit: June 10, 2003 | Opportunity: July 7, 2003 | <strong>Landing:</strong> January 2004</p>
-                <p><strong>Major Discoveries:</strong> Found evidence of past water activity in Martian rocks and soil, including "blueberry" hematite spheres.</p>
-                <p><strong>Key Technical Features:</strong> Solar-powered, advanced spectrometers, panoramic cameras, six-wheel rocker-bogie suspension.</p>
-              </section>
+                <p><strong>Major Discoveries:</strong> Evidence of water, hematite "blueberries".</p>
+                <p><strong>Key Technical Features:</strong> Solar-powered, panoramic cameras, spectrometers.</p>
+            </section>
         
-              <section>
+            <section>
                 <h3>2012 - Curiosity</h3>
-                <img src="assets/img/cur.jpg" class="rov-img">
+                <img src="assets/img/cur.jpg" class="rov-img" alt="Curiosity Rover on Mars" tabindex="0">
                 <p><strong>Mission Goals:</strong> Assess Mars' habitability for microbial life.</p>
-                <p><strong>Overview:</strong> Curiosity is a nuclear-powered rover designed for advanced surface analysis, exploring Gale Crater.</p>
+                <p><strong>Overview:</strong> Advanced nuclear-powered rover exploring Gale Crater.</p>
                 <p><strong>Launch:</strong> November 26, 2011 | <strong>Landing:</strong> August 6, 2012</p>
-                <p><strong>Major Discoveries:</strong> Discovered complex organic molecules, methane gas fluctuations, and evidence of ancient freshwater lakes.</p>
-                <p><strong>Key Technical Features:</strong> Nuclear-powered (MMRTG), ChemCam laser spectrometer, robotic arm, Mars Hand Lens Imager (MAHLI).</p>
-              </section>
+                <p><strong>Major Discoveries:</strong> Organic molecules, methane gas fluctuations.</p>
+                <p><strong>Key Technical Features:</strong> Nuclear-powered, ChemCam laser, robotic arm.</p>
+            </section>
         
-              <section>
+            <section>
                 <h3>2021 - Perseverance</h3>
-                <img src="assets/img/per.jpg" class="rov-img">
+                <img src="assets/img/per.jpg" class="rov-img" alt="Perseverance Rover on Mars" tabindex="0">
                 <p><strong>Mission Goals:</strong> Search for signs of ancient life, collect rock samples.</p>
-                <p><strong>Overview:</strong> Perseverance is the most advanced rover, equipped with sophisticated instruments to study Mars' surface and collect samples for future return.</p>
+                <p><strong>Overview:</strong> Most advanced rover, equipped with a helicopter (Ingenuity).</p>
                 <p><strong>Launch:</strong> July 30, 2020 | <strong>Landing:</strong> February 18, 2021</p>
-                <p><strong>Major Discoveries:</strong> Discovered diverse rock types in Jezero Crater, successfully collected Martian rock samples.</p>
-                <p><strong>Key Technical Features:</strong> Nuclear-powered (MMRTG), SuperCam for remote analysis, SHERLOC for organic detection, Ingenuity helicopter for aerial exploration.</p>
-              </section>
+                <p><strong>Major Discoveries:</strong> Diverse rock types in Jezero Crater.</p>
+                <p><strong>Key Technical Features:</strong> Nuclear-powered, SuperCam, Ingenuity helicopter.</p>
+            </section>
         </div>
     </main>
 
     <footer class="footer-history">
         <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
-        <a href="mailto:me@gmail.com">Email me!</a>
+        <a href="mailto:me@gmail.com" tabindex="0">Email me | </a>
+        <a href="#nav">Top</a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

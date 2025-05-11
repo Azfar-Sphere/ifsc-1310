@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="NASA Mars Rovers">
+    <meta name="keywords" content="NASA, Mars, Mars Rovers">
     <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +17,13 @@
   <body>
     <header>
         <h1><a href="index.html">NASA Mars Rovers</a></h1>
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mission-history.html">Mission History</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+        <nav id="nav" role="navigation" aria-label="Main Navigation">
+          <ul>
+              <li><a href="index.html" tabindex="0">Home</a></li>
+              <li><a href="mission-history.html" tabindex="0">Mission History</a></li>
+              <li><a href="faq.html" tabindex="0">FAQ</a></li>
+          </ul>
+      </nav>
     </header>
 
     <main>
@@ -39,18 +40,30 @@
       </section>
 
       <div class="mars_pics">
-        <div><img src="assets/img/1.jpg" alt="mars1"><figcaption>Perspective of Mars' Valles Marineris hemisphere</figcaption></div>
-        <div><img src="assets/img/2.jpg" alt="mars2"><figcaption>European Space Agency's Mars Express mission captured this 2018 image of the Korolev crater.</figcaption></div>
-        <div><img src="assets/img/3.jpg" alt="mars3"><figcaption>Wind-carved features such as these, called yardangs, are common on the red planet.</figcaption></div>
-        <div><img src="assets/img/4.jpg" alt="mars4"><figcaption>NASA's Curiosity rover used two cameras to create this selfie in front of "Mont Mercou," a rock formation that stands 20 feet tall.</figcaption></div>
-      </div>
+        <figure tabindex="0">
+          <img src="assets/img/1.jpg" alt="Mars' Valles Marineris hemisphere">
+          <figcaption>Perspective of Mars' Valles Marineris hemisphere.</figcaption>
+      </figure>
+      <figure tabindex="0">
+          <img src="assets/img/2.jpg" alt="Korolev Crater on Mars captured by Mars Express.">
+          <figcaption>European Space Agency's Mars Express mission captured this image of the Korolev crater.</figcaption>
+      </figure>
+      <figure tabindex="0">
+          <img src="assets/img/3.jpg" alt="Wind-carved features known as yardangs on Mars.">
+          <figcaption>Wind-carved features called yardangs are common on the red planet.</figcaption>
+      </figure>
+      <figure tabindex="0">
+          <img src="assets/img/4.jpg" alt="Curiosity rover selfie in front of Mont Mercou.">
+          <figcaption>NASA's Curiosity rover took this selfie in front of "Mont Mercou," a 20-foot tall rock formation.</figcaption>
+      </figure>      </div>
       
-      <h2 id="nasa"><a href="https://www.nasa.gov/">Visit NASA</a></h2>
+      <h2 id="nasa"><a href="https://www.nasa.gov/" tabindex="0">Visit NASA</a></h2>
     </main>
 
     <footer>
         <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
-        <a href="mailto:me@gmail.com">Email me!</a>
+        <a href="mailto:me@gmail.com" tabindex="0">Email me | </a>
+        <a href="#nav">Top</a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

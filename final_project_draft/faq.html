@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="NASA Mars Rovers">
+    <meta name="keywords" content="NASA, Mars, Mars Rovers">
     <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +16,13 @@
   </head>
   <body class="faq">
     <header>
-        <h1><a href="index.html">NASA Mars Rovers</a></h1>
-        <nav id="nav">
+        <h1><a href="index.html" tabindex="0">NASA Mars Rovers</a></h1>
+        <nav id="nav" role="navigation" aria-label="Main Navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mission-history.html">Mission History</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="index.html" tabindex="0">Home</a></li>
+                <li><a href="mission-history.html" tabindex="0">Mission History</a></li>
+                <li><a href="faq.html" tabindex="0">FAQ</a></li>
             </ul>
-        </nav>
     </header>
 
     <main>
@@ -62,7 +62,8 @@
 
     <footer>
         <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
-        <a href="mailto:me@gmail.com">Email me!</a>
+        <a href="mailto:me@gmail.com" tabindex="0">Email me | </a>
+        <a href="#nav">Top</a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
