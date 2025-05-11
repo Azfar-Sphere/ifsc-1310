@@ -218,7 +218,8 @@ li:hover {
 }
 
 .writings p { 
-    background: rgba(30, 30, 47, 0.5);
+    text-align: justify;
+    background: rgba(30, 30, 47, 0.751);
     border: 1px solid #FFFDD1;
     border-radius: 10px;
     padding: 20px;
