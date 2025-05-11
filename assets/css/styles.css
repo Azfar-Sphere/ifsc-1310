@@ -170,7 +170,7 @@ li:hover {
 }
 
 #final_project_2 a {
-    color: #b22222;
+    color: #f83030;
     font-weight: bolder;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.96)
 }
@@ -213,6 +213,9 @@ li:hover {
     2px 2px 1px #2F1B55;
 }
 
+.writings h2 {
+    font-weight: 400;
+}
 
 .writings p { 
     background: rgba(30, 30, 47, 0.5);
