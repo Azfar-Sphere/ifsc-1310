@@ -55,7 +55,6 @@ html, body {
     align-items: center;
     justify-content: center;
     overflow: auto;
-    position: relative;
 }
 
 #left {
@@ -230,15 +229,39 @@ li:hover {
 
       nav ul li {
         margin: 10px 0;
+        max-width: 250px;
+        font-size: clamp(0.5rem, 1.5vw, 2rem)
       }
 
       section.writings {
         margin-top: 15px;
         padding: 15px;
       }
-    }
+    
 
     #w_info {
         display: none;
     }
- 
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100vw;
+        flex-direction: column;
+
+    }
+
+    #navbar nav { 
+        position: relative;
+        left: -5%;
+        flex-wrap: wrap;
+    }
+
+    #positioning { 
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
