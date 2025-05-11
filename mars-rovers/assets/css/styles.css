@@ -1,0 +1,296 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    margin:0;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+header h1 a:hover  {
+    color: rgb(250, 104, 104);
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+#nav ul li { 
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+#nav a:hover {
+    color: #ffeb3b;
+}
+
+#mars-image { 
+    width:100vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#rovers {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+#rovers h2 {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    color: white;
+    font-size: clamp(2rem, 5vw, 5rem);
+    font-weight: 700;
+}
+
+#rovers h2 span{
+    color: #b22222;
+    font-size: clamp(2rem, 5vw, 5rem);
+}
+
+#overview { 
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#overview h3 { 
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+
+footer a { 
+    text-decoration: none;
+    color: lightblue;
+    transition: color 0.3s;
+}
+
+footer a:hover { 
+    color: orange;
+}
+
+.mars_pics { 
+    margin: 50px auto;
+    max-width: 900px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.slick-slide { 
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.mars_pics img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.mars_pics figcaption {
+    margin: 15px auto;
+    text-align: center;
+}
+
+#mh_h2 { 
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: gainsboro;
+    border-bottom: 2px solid gainsboro;
+    padding: 20px;
+}
+
+.timeline {
+    margin-top: 20px;
+    border-left: 3px solid #b22222;
+    padding-left: 20px;
+  }
+
+  .timeline section {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .timeline section h3 {
+    font-size: 1.5rem;
+    color: gainsboro;
+    margin-bottom: 10px;
+  }
+
+  .timeline section p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .rov-img { 
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  body.mission-history {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+  .footer-history {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border-top: 2px solid #b22222;
+  }
+
+  header.header-history {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border-bottom: 2px solid #b22222;
+  }
+
+  body.faq {
+    background-color: #121212;
+    color: #E0E0E0;
+  }
+
+  h2.faq { 
+    text-align: center;
+    color: #b22222;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+  }
+
+  .faq-item { 
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+
+  .faq-item:hover {
+    background-color: #2A2A2A;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+#nasa { 
+    text-align: center;
+    margin: 10px;
+}
+
+#nasa a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+ #nasa a:hover { 
+    color: black;
+ }
+
+#nasa-logo{
+  height: 3rem;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+
+ @media (max-width: 800px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 20px;
+  }
+
+  header h1 {
+      font-size: 1.25rem;
+  }
+
+  .mars_pics {
+   max-width: 90%;
+  }
+
+  #overview{
+    max-width: 80%;
+  }
+
+  .faq-item {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .faq-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .timeline { 
+    max-width: 95vw;
+  }
+}
